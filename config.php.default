@@ -1,0 +1,17 @@
+<?php
+	// Default values, change to suit your needs, then rename to config.php
+	$project_name = "";
+	$project_url = "http://";
+	$buy_url = "https://secure.epayment.ro/order/checkout.php";
+
+	$update_url = "https://secure.epayment.ro/cpanel/products.php?download=csv";
+	$update_post = "email=name@domain.tld&password=&Login=Login";
+	$update_file ='/full/path/to/update/data.csv';
+	$update_cookie = "/full/path/to/update/.cookie";
+
+	$db_file = "/full/path/to/db.sqlite";
+
+	// Libs
+	include("classes/sqlite.php");
+	include("classes/parsecsv.lib.php");
+?>
